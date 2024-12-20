@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-tocandira') {
+orgs.newOrg('iot.tocandira', 'eclipse-tocandira') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
